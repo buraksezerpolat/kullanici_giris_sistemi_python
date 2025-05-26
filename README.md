@@ -5,9 +5,9 @@ Bu proje, Python kullanılıarak geliştirilmiş bir kullanıcı kayıt/giriş s
 ## Özellikler
 
 - Kullanıcı kayıt ve giriş sistemi
-- Şifre güvenliği için bcrypt
-- Şifre güvenliği için hash+salt SHA256 algoritması
-- '.env' dosyası ile gizli bilgilerin güvenliği
+- Şifre güvenliği için `bcrypt`
+- SHA256 + salt ile şifre hashleme
+- `.env` dosyası ile gizli bilgilerin güvenliği
 - Şifreyi göster gizle seçeneği
 - MySQL ile veritabanı bağlantı
 
@@ -27,6 +27,6 @@ Ayrıca .env dosyası oluşturmanız gerekldir.
 
 ## Projeyi Çalıştırmak
 
-terminale 'python giris_gui.py' yazın.
+terminale `python giris_gui.py` yazın.
 
 #### *Bu proje MIT lisansı ile lisanslanmıştır*
