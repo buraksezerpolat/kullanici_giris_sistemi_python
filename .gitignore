@@ -1,11 +1,4 @@
-# Sanal ortam klasörü
 venv/
-
-# __pycache__ klasörleri
 __pycache__/
-
-# .env dosyası (gizli bilgiler)
 .env
-
-# IDE ayarları (örnek olarak VS Code)
 .vscode/
